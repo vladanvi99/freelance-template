@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/slick.css'> 
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">    
+</head>
+<body>
+    <!--BACK TOP BTN-->
+    <div class="back-top">
+        <a href="#top-header-top"><i class="fas fa-chevron-up"></i></a>
+    </div>
+    <div id="top-header-top"></div>
+    <!--HEADER-->
+    <header id="top-header" class="other-header">
+        <div class="container" id="nav-header">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-xl py-1">
+                        <a class="navbar-brand" href="index.html">Freelancer</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav ml-xl-3 ml-auto align-items-center pt-4 align-items-center pt-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link py-1" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link py-1" href="how_it_works.html">How It Works</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link py-1" href="browse-job.html">Browse Job</a>
+                            </li>
+                            <li class="nav-item mr-xl-5">
+                              <a class="nav-link active py-1" href="browse-freelance.html">Browse Freelancer</a>
+                            </li>
+                            <li class="mr-xl-5 d-xl-block d-none"><p class="mr-xl-2"></p></li>
+                            <li class="nav-item ml-xl-5">
+                                <button type="button" class="login-register-btn ml-xl-5" data-toggle="modal" data-target="#exampleModalLong"><i class="fas fa-sign-out-alt ml-xl-5"></i>Login/ Register</button>
+                            </li>
+                            <li class="nav-item post-job-btn">
+                                <a class="nav-link" href="post_job-inner.html">Post Job</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--BANNER OTHER SECTION WITH INPUT-->
+    <section id="banner-other-input">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-8 col-md-10 mx-auto">
+                    <p class="text">Browse Freelancer</p>
+                    <div class="search-big-wrap">
+                        <div class="search-wrap">
+                            <input type="text" name="text" placeholder="I'm looking for...">
+                            <div class="line"></div>
+                            <div class="select-wrap">
+                                <p class="current-select">Jobs<img src="images/Home/Group 2.png" alt=""></p>
+                                <ul class="select-other-wrap">
+                                    <li>Jobs</li>
+                                    <li>Freelancers</li>
+                                    <li>Freelancers</li>
+                                    <li>Freelancers</li>
+                                </ul>
+                            </div>
+                            <button class="start-search"><img src="images/Home/Group 3.png" alt="">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FREELANCERS-->
+    <section id="top-freelancer">
+        <div class="container">
+            <div class="row mt-2">
+                <div class="col-xl-4">
+                    <form>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-4 col-md-6 mt-2 mt-xl-0">
+                                <div class="categories-section">
+                                    <p class="head">Categories</p>
+                                    <div class="form-input">
+                                        <input type="text" name="search-categories" placeholder="Search Category">
+                                        <div class="search-btn"><img src="images/browse job/Group 3.png" alt=""></div>
+                                    </div>
+                                    <div class="check-inputs-wrap">
+                                        <div class="check-me">
+                                            <input type="checkbox" id="wdga" name="wdga">
+                                            <span class="checkmark"></span>
+                                            <label for="wdga">Website Design</label>
+                                        </div>                                        
+                                        <div class="check-me">
+                                            <input type="checkbox" id="awa" name="awa">
+                                            <span class="checkmark"></span>
+                                            <label for="awa">Article Writing</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="swaa" name="swaa">
+                                            <span class="checkmark"></span>
+                                            <label for="swaa">S/W Architecture</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="wpa" name="wpa">
+                                            <span class="checkmark"></span>
+                                            <label for="wpa">Wordpress</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="gda" name="gda">
+                                            <span class="checkmark"></span>
+                                            <label for="gda">Graphics Design</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="wda" name="wda">
+                                            <span class="checkmark"></span>
+                                            <label for="wda">Web Development</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="wdg" name="wdg">
+                                            <span class="checkmark"></span>
+                                            <label for="wdg">Website Design</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="aw" name="aw">
+                                            <span class="checkmark"></span>
+                                            <label for="aw">Article Writing</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="swa" name="swa">
+                                            <span class="checkmark"></span>
+                                            <label for="swa">S/W Architecture</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="wp" name="wp">
+                                            <span class="checkmark"></span>
+                                            <label for="wp">Wordpress</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="gd" name="gd">
+                                            <span class="checkmark"></span>
+                                            <label for="gd">Graphics Design</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="wd" name="wd">
+                                            <span class="checkmark"></span>
+                                            <label for="wd">Web Development</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12 col-lg-4 col-md-6 mt-2">
+                                <div class="categories-section">
+                                    <p class="head">Freelancer Type</p>
+                                    <div class="check-me">
+                                        <input type="checkbox" id="proi" name="proi">
+                                        <span class="checkmark"></span>
+                                        <label for="proi">Pro Independent Freelancer</label>
+                                    </div>                                        
+                                    <div class="check-me">
+                                        <input type="checkbox" id="proa" name="proa">
+                                        <span class="checkmark"></span>
+                                        <label for="proa">Pro Agency Freelancer</label>
+                                    </div>
+                                    <div class="check-me">
+                                        <input type="checkbox" id="ifr" name="ifr">
+                                        <span class="checkmark"></span>
+                                        <label for="ifr">Independent Freelancer</label>
+                                    </div>
+                                    <div class="check-me">
+                                        <input type="checkbox" id="afr" name="afr">
+                                        <span class="checkmark"></span>
+                                        <label for="afr">Agency Freelancer</label>
+                                    </div>
+                                    <div class="check-me">
+                                        <input type="checkbox" id="nrt" name="nrt">
+                                        <span class="checkmark"></span>
+                                        <label for="nrt">New Rising Talent</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12 col-lg-4 col-md-6 mt-2">
+                                <div class="categories-section">
+                                    <p class="head">Hourly Rate</p>
+                                    <div class="check-me">
+                                        <input type="checkbox" id="beloveten" name="beloveten">
+                                        <span class="checkmark"></span>
+                                        <label for="beloveten">$10 & Belove</label>
+                                    </div>                                        
+                                    <div class="check-me">
+                                        <input type="checkbox" id="tentothree" name="tentothree">
+                                        <span class="checkmark"></span>
+                                        <label for="tentothree">$10 -$30</label>
+                                    </div>
+                                    <div class="check-me">
+                                        <input type="checkbox" id="threetofive" name="threetofive">
+                                        <span class="checkmark"></span>
+                                        <label for="threetofive">$30 - $ 50</label>
+                                    </div>
+                                    <div class="check-me">
+                                        <input type="checkbox" id="fivetonine" name="fivetonine">
+                                        <span class="checkmark"></span>
+                                        <label for="fivetonine">$50 - $90</label>
+                                    </div>
+                                    <div class="check-me">
+                                        <input type="checkbox" id="nineplus" name="nineplus">
+                                        <span class="checkmark"></span>
+                                        <label for="nineplus">$90 & Above</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12 col-lg-4 col-md-6 mt-2">
+                                <div class="categories-section">
+                                    <p class="head">Location</p>
+                                    <div class="form-input">
+                                        <input type="text" name="search-categories" placeholder="Search Location">
+                                        <div class="search-btn"><img src="images/browse job/Group 3.png" alt=""></div>
+                                    </div>
+                                    <div class="check-inputs-wrap">
+                                        <div class="check-me">
+                                            <input type="checkbox" id="aus" name="aus">
+                                            <span class="checkmark"></span>
+                                            <label for="aus"><img src="images/browse job/australia.png" alt="">Australia</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="ind" name="ind">
+                                            <span class="checkmark"></span>
+                                            <label for="ind"><img src="images/browse job/india.png" alt="">India</label>
+                                        </div>                                         
+                                        <div class="check-me">
+                                            <input type="checkbox" id="usa" name="usa">
+                                            <span class="checkmark"></span>
+                                            <label for="usa"><img src="images/browse job/united-states.png" alt="">United State</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="can" name="can">
+                                            <span class="checkmark"></span>
+                                            <label for="can"><img src="images/browse job/canada.png" alt="">Canada</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="eng" name="eng">
+                                            <span class="checkmark"></span>
+                                            <label for="eng"><img src="images/browse job/england.png" alt="">England</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="tur" name="tur">
+                                            <span class="checkmark"></span>
+                                            <label for="tur"><img src="images/browse job/turkey.png" alt="">Turkey</label>
+                                        </div>
+                                        
+                                        <div class="check-me">
+                                            <input type="checkbox" id="ausa" name="ausa">
+                                            <span class="checkmark"></span>
+                                            <label for="ausa"><img src="images/browse job/australia.png" alt="">Australia</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="inda" name="inda">
+                                            <span class="checkmark"></span>
+                                            <label for="inda"><img src="images/browse job/india.png" alt="">India</label>
+                                        </div>                                         
+                                        <div class="check-me">
+                                            <input type="checkbox" id="usaa" name="usaa">
+                                            <span class="checkmark"></span>
+                                            <label for="usaa"><img src="images/browse job/united-states.png" alt="">United State</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="cana" name="cana">
+                                            <span class="checkmark"></span>
+                                            <label for="cana"><img src="images/browse job/canada.png" alt="">Canada</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="enga" name="enga">
+                                            <span class="checkmark"></span>
+                                            <label for="enga"><img src="images/browse job/england.png" alt="">England</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="tura" name="tura">
+                                            <span class="checkmark"></span>
+                                            <label for="tura"><img src="images/browse job/turkey.png" alt="">Turkey</label>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xl-12 col-lg-4 col-md-6 mt-2">
+                                <div class="categories-section">
+                                    <p class="head">Languages</p>
+                                    <div class="form-input">
+                                        <input type="text" name="search-categories" placeholder="Search Language">
+                                        <div class="search-btn"><img src="images/browse job/Group 3.png" alt=""></div>
+                                    </div>
+                                    <div class="check-inputs-wrap">
+                                        <div class="check-me">
+                                            <input type="checkbox" id="en" name="en">
+                                            <span class="checkmark"></span>
+                                            <label for="en">English</label>
+                                        </div>                                        
+                                        <div class="check-me">
+                                            <input type="checkbox" id="spa" name="spa">
+                                            <span class="checkmark"></span>
+                                            <label for="spa">Spain</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="ara" name="ara">
+                                            <span class="checkmark"></span>
+                                            <label for="ara">Arabic</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="chi" name="chi">
+                                            <span class="checkmark"></span>
+                                            <label for="chi">Chinese</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="rus" name="rus">
+                                            <span class="checkmark"></span>
+                                            <label for="rus">Russian</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="ger" name="ger">
+                                            <span class="checkmark"></span>
+                                            <label for="ger">German</label>
+                                        </div>
+                                        
+                                        <div class="check-me">
+                                            <input type="checkbox" id="ena" name="ena">
+                                            <span class="checkmark"></span>
+                                            <label for="ena">English</label>
+                                        </div> 
+                                        <div class="check-me">
+                                            <input type="checkbox" id="spaa" name="spaa">
+                                            <span class="checkmark"></span>
+                                            <label for="spaa">Spain</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="araa" name="araa">
+                                            <span class="checkmark"></span>
+                                            <label for="araa">Arabic</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="chia" name="chia">
+                                            <span class="checkmark"></span>
+                                            <label for="chia">Chinese</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="rusa" name="rusa">
+                                            <span class="checkmark"></span>
+                                            <label for="rusa">Russian</label>
+                                        </div>
+                                        <div class="check-me">
+                                            <input type="checkbox" id="gera" name="gera">
+                                            <span class="checkmark"></span>
+                                            <label for="gera">German</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12 col-lg-4 col-md-6 mt-2">
+                                <div class="categories-section">
+                                    <p class="para">Click “Apply Filter” to apply latest changes made by you.</p>
+                                    <input type="submit" name="submit" value="Apply Filters">
+                                </div>
+                            </div>
+                        </div>
+                    <form>
+                </div>
+                <div class="col-xl-8 col-lg-11 col-md-12 mx-auto mr-xl-0 ml-xl-auto">
+                    <div class="row">
+                        <div class="col-12 mt-3 mt-xl-0">
+                            <div class="top-freelancer-card">
+                                <div class="card-top">
+                                    <div class="card-top-left">
+                                        <a href="freelancer-details.html"><img src="images/Home/woman-1921855_1920.png" alt=""></a>
+                                        <div class="card-top-left-text">
+                                            <a href="freelancer-details.html" class="name">Jofra Archer</a>
+                                            <a href="job-details.html" class="job">Pioneers Of eCommerce Data Entry</a>
+                                            <div class="info">
+                                                <p><img src="images/Browse Freelancer/money.png" alt="">$10.00 / hr</p>
+                                                <p><img src="images/Browse Freelancer/united-states.png" alt="">United State</p>
+                                                <button type="button" class="save-btn"><i class="fas fa-heart"></i>Click to Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-top-right">
+                                        <div class="stars">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 52.png" alt="">
+                                        </div>
+                                        <div class="rating">4.5/5</div>
+                                        <a href="freelancer-details.html">(217 Feedback)</a>
+                                    </div>
+                                </div>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis massa, maximus non ultrices in, feugiat vitae metus. Etiam interdum tortor at libero tempus, et malesuada arcu gravida. Nulla maximus dolor dolor, et tempus lorem mollis et</p>
+                                <div class="skills">
+                                    <p>PHP</p>
+                                    <p>HTML</p>
+                                    <p>JavaScript</p>
+                                    <p>WordPress</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-12 mt-2">
+                            <div class="top-freelancer-card">
+                                <div class="card-top">
+                                    <div class="card-top-left">
+                                        <a href="freelancer-details.html"><img src="images/Home/raul-angel-x8Ac6jee_3s-unsplash.png" alt=""></a>
+                                        <div class="card-top-left-text">
+                                            <a href="freelancer-details.html" class="name">Jofra Archer</a>
+                                            <a href="job-details.html" class="job">Pioneers Of eCommerce Data Entry</a>
+                                            <div class="info">
+                                                <p><img src="images/Browse Freelancer/money.png" alt="">$10.00 / hr</p>
+                                                <p><img src="images/Browse Freelancer/australia.png" alt="">United State</p>
+                                                <button type="button" class="save-btn"><i class="fas fa-heart"></i>Click to Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-top-right">
+                                        <div class="stars">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 52.png" alt="">
+                                        </div>
+                                        <div class="rating">4.5/5</div>
+                                        <a href="freelancer-details.html">(217 Feedback)</a>
+                                    </div>
+                                </div>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis massa, maximus non ultrices in, feugiat vitae metus. Etiam interdum tortor at libero tempus, et malesuada arcu gravida. Nulla maximus dolor dolor, et tempus lorem mollis et</p>
+                                <div class="skills">
+                                    <p>PHP</p>
+                                    <p>HTML</p>
+                                    <p>JavaScript</p>
+                                    <p>WordPress</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-2">
+                            <div class="top-freelancer-card">
+                                <div class="card-top">
+                                    <div class="card-top-left">
+                                        <a href="freelancer-details.html"><img src="images/Home/analise-benevides-h7NIaoJ62d8-unsplash.png" alt=""></a>
+                                        <div class="card-top-left-text">
+                                            <a href="freelancer-details.html" class="name">Jofra Archer</a>
+                                            <a href="job-details.html" class="job">Pioneers Of eCommerce Data Entry</a>
+                                            <div class="info">
+                                                <p><img src="images/Browse Freelancer/money.png" alt="">$10.00 / hr</p>
+                                                <p><img src="images/Browse Freelancer/india.png" alt="">United State</p>
+                                                <button type="button" class="save-btn"><i class="fas fa-heart"></i>Click to Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-top-right">
+                                        <div class="stars">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 52.png" alt="">
+                                        </div>
+                                        <div class="rating">4.5/5</div>
+                                        <a href="freelancer-details.html">(217 Feedback)</a>
+                                    </div>
+                                </div>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis massa, maximus non ultrices in, feugiat vitae metus. Etiam interdum tortor at libero tempus, et malesuada arcu gravida. Nulla maximus dolor dolor, et tempus lorem mollis et</p>
+                                <div class="skills">
+                                    <p>PHP</p>
+                                    <p>HTML</p>
+                                    <p>JavaScript</p>
+                                    <p>WordPress</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-2">
+                            <div class="top-freelancer-card">
+                                <div class="card-top">
+                                    <div class="card-top-left">
+                                        <a href="freelancer-details.html"><img src="images/Home/tamara-bellis-oj2nLF70ya4-unsplash.png" alt=""></a>
+                                        <div class="card-top-left-text">
+                                            <a href="freelancer-details.html" class="name">Jofra Archer</a>
+                                            <a href="job-details.html" class="job">Pioneers Of eCommerce Data Entry</a>
+                                            <div class="info">
+                                                <p><img src="images/Browse Freelancer/money.png" alt="">$10.00 / hr</p>
+                                                <p><img src="images/Browse Freelancer/united-states.png" alt="">United State</p>
+                                                <button type="button" class="save-btn"><i class="fas fa-heart"></i>Click to Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-top-right">
+                                        <div class="stars">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 53.png" alt="">
+                                            <img src="images/Home/Group 52.png" alt="">
+                                        </div>
+                                        <div class="rating">4.5/5</div>
+                                        <a href="freelancer-details.html">(217 Feedback)</a>
+                                    </div>
+                                </div>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis massa, maximus non ultrices in, feugiat vitae metus. Etiam interdum tortor at libero tempus, et malesuada arcu gravida. Nulla maximus dolor dolor, et tempus lorem mollis et</p>
+                                <div class="skills">
+                                    <p>PHP</p>
+                                    <p>HTML</p>
+                                    <p>JavaScript</p>
+                                    <p>WordPress</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <div class="pagination-btns">
+                                <div class="arr-left btn"><img src="images/browse job/Group 196.png" alt=""></div>
+                                <div class="numbers">
+                                    <div class="btn active">1</div>
+                                    <div class="btn">2</div>
+                                </div>
+                                <div class="arr-right btn"><img src="images/browse job/Group 196.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-md-6 mt-5">
+                    <div class="footer-card">
+                        <p class="head">Freelancer</p>
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur elit. Fusce turpis massa, maximus non in, feugiat metus. Etiam interdum tortor at tempus, et malesuada gravida. Nulla dolor dolor, et tempus lorem mollis et</p>
+                        <div class="social-icons">
+                            <a href=""><img src="images/Home/Group 119.png" alt=""></a>
+                            <a href=""><img src="images/Home/Group 120.png" alt=""></a>
+                            <a href=""><img src="images/Home/Group 121.png" alt=""></a>
+                            <a href=""><img src="images/Home/Group 122.png" alt=""></a>
+                            <a href=""><img src="images/Home/Group 123.png" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mt-5">
+                    <div class="footer-card">
+                        <p class="head">Search By Location</p>
+                        <ul>
+                            <li>Jobs in Australia</li>
+                            <li>Jobs in United State</li>
+                            <li>Jobs in India</li>
+                            <li>Jobs in Canada</li>
+                            <li>Jobs in England</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mt-5">
+                    <div class="footer-card">
+                        <p class="head">Newsletter</p>
+                        <form>
+                            <div class="wrap">
+                                <input type="email" name="email" placeholder="Enter Your Email">
+                                <input type="submit" name="submit" value="Subscribe">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!--LOGINE/REGISTER-->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><img class="ext-btn-c" src="images/Login, Register/Group 256.png" alt=""></span>
+            </button>
+            <div class="btns-wrap">
+                <div class="login-btn active">
+                    Login
+                </div>
+                <div class="register-btn">
+                    Register
+                </div>
+            </div>
+            <div class="register-block">
+                <div class="text">
+                    <p class="head">Let's Create Your account!</p>
+                    <p class="small-text">Already account? <span class="sign-in-btn">Login here</span></p>
+                </div>
+                <form>
+                    <div class="form-input">
+                        <img src="images/Login, Register/Group 257.png" alt="">
+                        <input type="email" name="email" placeholder="Email Address">
+                    </div>
+                    <div class="form-input">
+                        <img src="images/Login, Register/Group 259.png" alt="">
+                        <input type="password" name="pass" placeholder="Enter New Password">
+                    </div>
+                    <div class="form-input">
+                        <img src="images/Login, Register/Group 259.png" alt="">
+                        <input type="password" name="reppass" placeholder="Confirm New Password">
+                    </div>
+                    <input type="submit" name="submit" value="Register">
+                    <div class="or-wrap">
+                        <div class="line"></div>
+                        <p>Or</p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="other-login-btns mb-4">
+                        <a href="#" class="via-facebook"><img src="images/Login, Register/facebook.png" alt="">Register Via Facebook</a>
+                        <a href="#" class="via-google"><img src="images/Login, Register/search (1).png" alt="">Register Via Google</a>
+                    </div>
+                </form>
+            </div>
+            <div class="login-block active-block">
+                <div class="text">
+                    <p class="head">We're glad to see you again!</p>
+                    <p class="small-text">Don't have an account? <span class="sign-up-btn">Sign Up!</span></p>
+                </div>
+                <form>
+                    <div class="form-input">
+                        <img src="images/Login, Register/Group 257.png" alt="">
+                        <input type="email" name="email" placeholder="Email Address">
+                    </div>
+                    <div class="form-input">
+                        <img src="images/Login, Register/Group 259.png" alt="">
+                        <input type="password" name="pass" placeholder="Password">
+                    </div>
+                    <a class="forgot">Forgot Password?</a>
+                    <input type="submit" name="submit" value="Login">
+                    <div class="or-wrap">
+                        <div class="line"></div>
+                        <p>Or</p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="other-login-btns mb-4">
+                        <a href="#" class="via-facebook"><img src="images/Login, Register/facebook.png" alt="">Login Via Facebook</a>
+                        <a href="#" class="via-google"><img src="images/Login, Register/search (1).png" alt="">Login Via Google</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src='js/jquery-3.5.1.min.js'></script>
+    <script src='js/slick.js'></script>   
+    <script src='js/bootstrap.min.js'></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src='js/main.js'></script>
+</body>
+</html>
